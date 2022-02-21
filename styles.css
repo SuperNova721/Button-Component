@@ -1,4 +1,72 @@
+:root {
+  --primary-color: #3d5afe;
+}
+
 p {
   font-family: Ubuntu Mono;
   font-size: 12px;
+}
+
+.button {
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  width: 81px;
+  height: 36px;
+  left: 319px;
+  top: 141px;
+}
+
+.btn-hover-focus {
+  background: #aeaeae;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  width: 81px;
+  height: 36px;
+  top: 141px;
+}
+
+.btn-outline {
+  color: var(--primary-color);
+  border: 1px solid #3d5afe;
+  border-radius: 6px;
+  width: 88px;
+  height: 36px;
+  left: 319px;
+  top: 246px;
+}
+
+.btn-outline-hover-focus {
+  color: var(--primary-color);
+  background: rgba(41, 98, 255, 0.1);
+  border: 1px solid #3d5afe;
+  border-radius: 6px;
+  width: 88px;
+  height: 36px;
+  left: 555px;
+  top: 246px;
+}
+
+.btn-text {
+  color: var(--primary-color);
+}
+
+.btn-text-hover-focus {
+  color: var(--primary-color);
+  background: rgba(41, 98, 255, 0.1);
+  border-radius: 6px;
+  width: 88px;
+  height: 36px;
+  left: 555px;
+  top: 351px;
+}
+
+.btn-disabled-shadow {
+  color: #ffffff;
+  background: #3d5afe;
+  border-radius: 6px;
+  width: 81px;
+  height: 36px;
+  left: 319px;
+  top: 453px;
 }
